@@ -1,0 +1,15 @@
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\bin\Debug\net8.0\Prueba.Application.deps.json
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\bin\Debug\net8.0\Prueba.Application.dll
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\bin\Debug\net8.0\Prueba.Application.pdb
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\bin\Debug\net8.0\Prueba.Domain.dll
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\bin\Debug\net8.0\Prueba.Domain.pdb
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.Application.csproj.AssemblyReference.cache
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.Application.AssemblyInfoInputs.cache
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.Application.AssemblyInfo.cs
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.Application.csproj.CoreCompileInputs.cache
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.A.8A609B6E.Up2Date
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.Application.dll
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\refint\Prueba.Application.dll
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\Prueba.Application.pdb
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Application\obj\Debug\net8.0\ref\Prueba.Application.dll

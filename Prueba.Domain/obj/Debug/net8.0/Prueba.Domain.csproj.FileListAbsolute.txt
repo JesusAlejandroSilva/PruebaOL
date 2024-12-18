@@ -1,0 +1,11 @@
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\bin\Debug\net8.0\Prueba.Domain.deps.json
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\bin\Debug\net8.0\Prueba.Domain.dll
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\bin\Debug\net8.0\Prueba.Domain.pdb
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\Prueba.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\Prueba.Domain.AssemblyInfoInputs.cache
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\Prueba.Domain.AssemblyInfo.cs
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\Prueba.Domain.csproj.CoreCompileInputs.cache
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\Prueba.Domain.dll
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\refint\Prueba.Domain.dll
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\Prueba.Domain.pdb
+C:\Users\1061808300\source\repos\PruebaOL\Prueba.Domain\obj\Debug\net8.0\ref\Prueba.Domain.dll

@@ -1,0 +1,83 @@
+﻿@page
+@using Prueba.Domain.Entities
+@model TaskEntity Model
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Board</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Task Board</h2>
+    <div class="mb-3">
+        <a asp-page="Edit" class="btn btn-success">Create New Task</a>
+    </div>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var task in Task)
+        {
+            <tr>
+                <td>@task.Title</td>
+                <td>@task.Description</td>
+                <td>@task.Status</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@task.Id" class="btn btn-warning">Edit</a>
+                    <form method="post" asp-page-handler="Delete" asp-route-id="@task.Id" style="display:inline;">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
+```
+
+- Formulario de Crear/Editar Tarea (`Pages/Tasks/Edit.cshtml`):
+```html
+@page "{id?}"
+@model Task
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Edit Task</h2>
+    <form method="post">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input type="text" id="title" name="Title" class="form-control" value="@Model.Task.Title" required />
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea id="description" name="Description" class="form-control" required>@Model.Task.Description</textarea>
+        </div>
+        <div class="mb-3">
+            <label for="status" class="form-label">Status</label>
+            <select id="status" name="Status" class="form-select" required>
+                <option value="Pending" @(Model.Task.Status == "Pending" ? "selected" : "")>Pending</option>
+                <option value="In Progress" @(Model.Task.Status == "In Progress" ? "selected" : "")>In Progress</option>
+                <option value="Completed" @(Model.Task.Status == "Completed" ? "selected" : "")>Completed</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>
+</body>
+</html>
